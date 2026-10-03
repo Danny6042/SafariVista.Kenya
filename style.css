@@ -2245,13 +2245,18 @@ button {
     line-height: 1.7;
 }
 
-.guide-card a {
+.guide-card a,
+.guide-card > span {
     display: inline-flex;
     gap: 8px;
     align-items: center;
     margin-top: 18px;
     color: var(--gold-dark);
     font-weight: 700;
+}
+
+.footer-socials span {
+    color: rgba(252, 250, 245, 0.7);
 }
 
 @media (max-width: 900px) {
