@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Safari sunrise</title>
+  <desc id="desc">A warm sunrise over a Kenyan savannah.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#173d4a"/>
+      <stop offset="0.58" stop-color="#e58c57"/>
+      <stop offset="1" stop-color="#f6ca78"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#sky)"/>
+  <circle cx="820" cy="390" r="115" fill="#ffe8a3" opacity=".9"/>
+  <path d="M0 590 220 470 380 570 570 410 760 580 930 455 1200 600V800H0Z" fill="#315548"/>
+  <path d="M0 660c170-75 290-30 430-83 175-67 280 24 430-24 130-42 222-16 340 20v227H0Z" fill="#10231b"/>
+  <path d="M210 650c12-120 35-178 48-220 12 40 34 88 30 220m-25-113 63-60m-68 86-59-55M1030 640c7-104 27-156 38-188 12 38 31 76 28 188m-27-99 54-49m-58 73-48-43" fill="none" stroke="#10231b" stroke-width="18" stroke-linecap="round"/>
+</svg>
